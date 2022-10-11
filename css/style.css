@@ -1,46 +1,50 @@
 body{
-    text-align: right;
-    background-color: rgb(255, 255, 255);
+    margin: 0px;
 }
-.topnav{
-    display: inline-block;
-    vertical-align: center;
-    padding: 10px;
-    width: 2460px;
-height: 121px;
-left: 0px;
-top: 0px;
-    background: #000000;
+header{
+    background-color: #000000;
+    padding: 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-#topnav a{
-    position: absolute;
-    left: 72.07%;
-    right: 25.37%;
-    top: 39.67%;
-    bottom: 40.5%;
+.topNav a{
+  color: white; 
+  text-decoration: none;
+  text-transform:uppercase;
+  padding: 0px 40px; 
+  font-family: 'Lato', sans-serif;
+  font-size: 1.25rem;
+  /* rem divide number by 16 */
+  font-weight: 400; 
+}
+.topNav a:hover{
+    color: coral;
 
-    font-family: 'Lato';
-    font-style: normal;
+}
+.topNav a.active{
+    color: coral;
+}
+.hero{
+    display: flex;
+    padding: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform:uppercase;
+    font-size: 10rem;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-
-color: #FFFFFF;
+    margin: 0px;  
 }
-
-
-
+.heroSpaceTxt{
+    margin-left: 260px !important;
+}
 /*
-.heroImage{
-    padding: 25px;
-    height: 600px;
-}
-.content{
-    width: 500px;
-    background-color: #373738;
-}
-.footer{
-   display: inline-block;
-   vertical-align: top;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
    
 }/*
