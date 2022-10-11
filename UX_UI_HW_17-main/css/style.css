@@ -1,15 +1,36 @@
 body{
-    text-align: center;
-    background-color: black;
+    text-align: right;
+    background-color: rgb(255, 255, 255);
+}
+.topnav{
+    display: inline-block;
+    vertical-align: center;
+    padding: 10px;
+    width: 2460px;
+height: 121px;
+left: 0px;
+top: 0px;
+    background: #000000;
+}
+#topnav a{
+    position: absolute;
+    left: 72.07%;
+    right: 25.37%;
+    top: 39.67%;
+    bottom: 40.5%;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+color: #FFFFFF;
 }
 
-nav{
-display: inline-block;
-vertical-align: top;
-width: 50%;
-padding: 1%;
-margin-left: auto;
-}
+
+
+/*
 .heroImage{
     padding: 25px;
     height: 600px;
@@ -22,4 +43,4 @@ margin-left: auto;
    display: inline-block;
    vertical-align: top;
    
-}
+}/*
