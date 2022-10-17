@@ -1,3 +1,4 @@
+
 body{
     margin: 0px;
 }
@@ -58,7 +59,7 @@ header{
     width: 2045px;
     padding: 70px;
 }
-p{
+#description{
     display: block;
     text-align: left;
     padding-right: 50%;
@@ -79,7 +80,19 @@ p{
    
 }
   */  
-
+  button{
+    display: flex;
+    padding: 10px 40px;
+    gap: 10px;
+    background: #0F0F0F;
+    width: 207px;
+    height: 44px;
+}
+.btn btn-primary a{
+    color: aqua;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
   .img-thumbnail{
     width: 800px;
     height: 800px;
@@ -89,22 +102,6 @@ p{
 .img-fluid{
     max-width: 100%;
     height: auto;
-}
-button{
-    display: flex;
-    padding: 10px 40px;
-    gap: 10px;
-    background: #0F0F0F;
-    border-radius: 9px;
-    width: 207px;
-    height: 44px;
-}
-.learnMore{
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    color: #D2EEF0;
 }
 footer{
     background-color: #000000;
