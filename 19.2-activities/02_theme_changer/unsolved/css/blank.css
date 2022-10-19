@@ -1,0 +1,3 @@
+#theme{
+    $("#idValue").attr("attributeName", "attributeValue")
+}

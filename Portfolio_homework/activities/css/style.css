@@ -1,3 +1,4 @@
+
 body{
     margin: 0px;
 }
@@ -27,7 +28,6 @@ header{
 }
 .hero{
     display: flex;
-    padding: 70px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -35,7 +35,7 @@ header{
 .hero h1{
     font-family: 'Montserrat', sans-serif;
     text-transform:uppercase;
-    font-size: 10rem;
+    font-size: 6rem;
     font-weight: 400;
     margin: 0px;  
 }
@@ -43,44 +43,74 @@ header{
     margin-left: 260px !important;
 }
 
-/* hr{ 
-    margin: 50px;
-}*/
-.solid{
-    width: 85%;
-    height: 2px;
-    border: width 20px;
-    margin: 50px;
-    
+section{
+    padding: 20px 70px;
 }
-#line{
-    width: 2045px;
-    padding: 70px;
+
+.line{
+    height: 60px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-top: 80px;
+  
 }
-p{
-    display: block;
-    text-align: left;
-    padding-right: 50%;
-    width: 940px;
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+#description{
+    width: 50%;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
 }
-/*  
+.portfolioRow{
+    display: flex;
+    padding: 40px;
+}
 .portfolioCard{
-    display: inline-flex;
-    }
-  */  
+    flex: block;
+    width: 100%;
+    
+}
+.projectImage{
+    width: 100%;
+    
+}
+.cardContent{
+    display: flex;
+}
 
+.contentInfo h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24;
+    padding-bottom: 0px;
+}  
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: grey;
 
-.img{
-    width: 872px;
-    height: 789px;
-    object-fit: contain;
-      }
-
+}
+.learnMore{
+    background-color: #000000;
+    width: 207px;
+    height: 44px;
+    border-radius: 6px;
+}
+.cta{
+    display: flex;
+    padding: 10px 40px;
+    gap: 10px;
+    text-transform: uppercase;
+    color: aqua;
+    text-decoration: none;
+}
 footer{
     background-color: #000000;
     display: flex;
@@ -88,7 +118,6 @@ footer{
     align-items: center;
     padding: 48px;
 }
-
 .bottomNav a{
     color: white; 
     text-decoration: none;
@@ -113,3 +142,32 @@ font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
    
 }/*
+
+/*  
+.portfolioCard{
+    display: inline-flex;
+    }
+    width: 872px;
+    height: 789px;
+    button{
+   row-gap: 50px;
+    flex-direction: row;
+}
+
+
+.btn .btn-primary a{
+    color: aqua;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+  .img-thumbnail{
+    width: 800px;
+    height: 800px;
+    object-fit: contain;
+    padding: 50px;
+      }
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+  */  
